@@ -1,0 +1,126 @@
+@media (max-width: 1200px) {
+  .section-1 {
+    height: 45em;
+    padding-top: 7vmin;
+    padding-bottom: 7vmin;
+  }
+
+  footer h4 {
+    font-size: 1rem;
+  }
+
+}
+
+@media (max-width: 995px) {
+  header .row .col-md-5 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+
+
+  .section-1 {
+    padding-bottom: 0;
+    height: 50em!important;
+  }
+
+  .section-1 {
+    height: 55em;
+  }
+
+  .modal-form__input {
+    padding: 5px 5px;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  header .container .col-md-7 h1 {
+    font-size: 2em;
+  }
+
+  .modal-form__button {
+    width: 100%;
+    content: "123";
+  }
+
+@media only screen and (max-width: 768px) {
+  .pray {
+    display: none;
+  }
+  body > footer > div > div > div:nth-child(1) {
+    margin-bottom: 4vmin;}
+
+  header .col-sm-12 {
+    margin-bottom: 50px;
+  }
+  .hero-form {
+    max-width: 400px;
+    margin: auto;
+  }
+
+  .header .row .col-md-5{
+    background-color: black;
+    padding-bottom: 500px;
+  }
+
+  header {
+    background-size:cover;
+  }
+
+  header .row .col-md-7 {
+    padding: 11vmin 1vmin 0vmin 1vmin;;
+  }
+
+  header .navbar-brand {
+    padding-left: 1rem;
+  }
+  .section-1 .row .col-md-6 .panel {
+    position: initial;
+    width: initial;
+    height: initial;
+  }
+  .section-2 .cover {
+    background-position: -25vmin -10vmin;
+  }
+  .numbers .rect {
+    width: 10rem;
+    height: 8rem;
+  }
+  .numbers .rect h1 {
+    font-size: 2rem;
+  }
+
+  .section-3 {
+    height: inherit;
+  }
+  .section-3 .row h1 {
+    padding: 6vmin 4vmin;
+  }
+  .section-3 .platform .col-md-6 {
+    text-align: center !important;
+  }
+  .section-3 .desktop i {
+    font-size: 8vmin;
+  }
+  .section-4 .carousel-item {
+    padding-left: 0.6rem;
+  }
+  footer .row .col-md-2 {
+    margin-top: 8vmin;
+  }
+}
+
+/* screen size 375px */
+
+@media only screen and (max-width: 375px) {
+  .section-4 .card {
+    width: 18em;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .section-4 .carousel-inner {
+    margin-left: -4vmin;
+  }
+}
+}

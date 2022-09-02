@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Books</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/Style.css" />
+    <link rel="stylesheet" href="./css/mobile-style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg dark-navbar">
+          <a class="navbar-brand" href="#">
+            <i class="fas fa-book-reader fa-2x mx-3"></i>Simple English</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-align-right text-light"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="mr-auto"></div>
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#about"
+                  >О нас
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#prices">Цены</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Наша команда</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Контакты</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="container text-center">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-7 col-sm-12 text-white">
+            <h6>Simple ENGLISH</h6>
+            <h1>Курсы английского с официальной гарантией результата!</h1>
+            <p>
+              Запишитесь на первое бесплатное занятие и получите месяц
+              английского в подарок до 30.06 в честь начала лета!
+            </p>
+          </div>
+          <div class="col-md-5 col-sm-12 hero-form">
+            <h3 class="form__description-big">
+              Запишитесь на бесплатное занятие с преподавателем
+            </h3>
+            <p class="form__description-small">
+              И получите набор обучающих материалов на Ваш уровень В ПОДАРОК
+            </p>
+            <div class="modal-body">
+              <form
+                action="mail.php"
+                method="POST"
+                class="form modal-form modal__form form_vertical"
+              >
+                <input
+                  type="text"
+                  name="user-name"
+                  class="input modal-form__input _req"
+                  placeholder="Ваше имя"
+                />
+                <input
+                  type="tel"
+                  name="user-phone"
+                  class="input modal-form__input _req"
+                  placeholder="Номер телефона"
+                />
+                <button
+                  type="submit"
+                  class="primary-btn btn-dark px-5 py-2 form-btn"
+                >
+                  Отправить
+                </button>
+              </form>
+              <p class="form__policy my-0">
+                Ваши персональные данные конфиденциальны
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="about" class="section-1">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-md-6 col-12">
+              <div class="pray">
+                <img src="./img/about.jpg" alt="Simple English" class="" />
+              </div>
+            </div>
+            <div class="col-md-6 col-12">
+              <div class="panel text-left">
+                <h1>Simple English</h1>
+                <p class="pt-4">
+                  Школа английского языка Simple English готова предложить своим
+                  студентам лучшие обучающие курсы английскому построенные на
+                  базе программ университета Cambridge, чьи программы де факто
+                  признаны лучшими в мире и используются при подготовке к
+                  сложнейшим международным экзаменам.
+                </p>
+                <p>
+                  Уникальные разработки наших методологов делают обучающие
+                  программы технологичными и эффективными как для детей так и
+                  для взрослых. Обучение в школе возможно в возрасте с 3 лет —
+                  это лучшее время, чтобы ребенок начинал знакомиться с
+                  английским языком. Для взрослых мы готовы предложить курсы
+                  разговорного языка и курсы делового общения, для людей, кому
+                  нужен английский для карьерного роста. Все наши педагоги
+                  постоянно проходят аттестацию и курсы повышения квалификации.
+                  Большинство из них имеют дипломы престижных университетов.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-2 container-fluid p-0">
+        <div class="cover">
+          <div class="overlay"></div>
+          <div class="content text-center">
+            <h1>Методика обучения, проверенная годами</h1>
+            <p>В нашей школе успешно обучилось уже более</p>
+          </div>
+        </div>
+        <div class="container-fluid text-center">
+          <div
+            class="numbers d-flex flex-md-row flex-wrap justify-content-center"
+          >
+            <div class="rect">
+              <h1>1652</h1>
+              <p>Человек</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="prices" class="purchase text-center">
+          <h1>Выберите программу обучения удобную для вас</h1>
+          <div class="cards">
+            <div class="d-flex flex-row justify-content-center flex-wrap">
+              <div class="card">
+                <div class="card-body">
+                  <div class="title">
+                    <h5 class="card-title">Стандарт</h5>
+                  </div>
+                  <p class="card-text">
+                    3-х месячный курс <br />по 3 занятия в неделю
+                  </p>
+                  <div class="pricing">
+                    <h1>4000 руб / мес</h1>
+                    <a href="#" class="btn btn-dark px-5 py-2 primary-btn mb-5"
+                      >Записаться</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <div class="title">
+                    <h5 class="card-title">Интенсив</h5>
+                  </div>
+                  <p class="card-text">
+                    2-х месячный курс <br />по 5 занятий в неделю
+                  </p>
+                  <div class="pricing">
+                    <h1>6000 руб / мес</h1>
+                    <a href="#" class="btn btn-dark px-5 py-2 primary-btn mb-5"
+                      >Записаться</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <div class="title">
+                    <h5 class="card-title">Инивидуальный</h5>
+                  </div>
+                  <p class="card-text">
+                    Подберем расписание, подходящее именно Вам
+                  </p>
+                  <div class="pricing">
+                    <h1>Уточнить</h1>
+                    <a href="#" class="btn btn-dark px-5 py-2 primary-btn mb-5"
+                      >Записаться</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-3 container-fluid p-0 text-center">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 map">
+            <iframe
+              src="https://yandex.ru/map-widget/v1/?um=constructor%3A837679814c0df802d6aa533c56546d23ba659a54403f195769afb31e6f1aa729&amp;source=constructor"
+              width="100%"
+              height="100%"
+              frameborder="0"
+            ></iframe>
+          </div>
+          <div class="col-md-6 col-sm-6 text-left">
+            <div class="address">
+              <h1 style="font-size: 2.5vmin; line-height: 4vmin;">
+                Новосибирск, проспект Карла Маркса, 30/1
+                <br />simpleenglish@mail.ru <br />
+
+              </h1>
+              <a style="text-decoration: underline; color: white;" href="tel:+74959663958">+7 (495) 966-39-58</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 4 -->
+      <section class="section-4">
+        <div class="container text-center">
+          <h1 class="text-dark">Наша команда</h1>
+        </div>
+        <div class="team row">
+          <div class="col-md-4 col-12 text-center">
+            <div class="card mr-2 d-inline-block shadow-lg">
+              <div class="card-img-top">
+                <img
+                  src="./img/teacher-1.jpg"
+                  class="img-fluid border-radius p-4"
+                  alt=""
+                />
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Olivia</h3>
+                <p class="card-text">
+                  Привет! Меня зовут Оливия и я родом из Великобритании. Я
+                  полюбила языки ещё в детстве, а сейчас говорю на четырёх
+                  языках на разных уровнях. Это помогает мне понимать те
+                  трудности, с которыми сталкиваются мои студенты при изучении
+                  языков, и находить лучшие способы, как помочь им развиваться
+                  дальше. Добавим к этому мою любовь к путешествиям и
+                  знакомствам с новыми людьми – и преподавание английского языка
+                  кажется идеальной профессией для меня!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12">
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <div class="carousel-inner text-center">
+                <div class="carousel-item active">
+                  <div class="card mr-2 d-inline-block shadow">
+                    <div class="card-img-top">
+                      <img
+                        src="./img/teacher-2.jpg"
+                        class="img-fluid rounded-circle w-50 p-4"
+                        alt=""
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h3 class="card-title">Natalya</h3>
+                      <p class="card-text">
+                        Я преподаю английский уже более 8 лет и с нетерпением
+                        жду возможности найти творческие, привлекательные и
+                        запоминающиеся способы передать знания английского
+                        студентам. Помогая студентам достичь своих целей в
+                        изучении английского языка и наблюдаю за их уверенным
+                        ростом, как они учатся. Это очень приятно и полезно не
+                        только для учителя, но и для студентов также.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card d-inline-block mr-2 shadow">
+                    <div class="card-img-top">
+                      <img
+                        src="./img/teacher-3.png"
+                        class="img-fluid rounded-circle w-50 p-4"
+                        alt=""
+                      />
+                    </div>
+                    <div class="card-body">
+                      <h3 class="card-title">Николай</h3>
+                      <p class="card-text">
+                        На протяжении жизни я изучал 7 языков, но остались со
+                        мной английский и немецкий. Для меня самое радостное в
+                        преподвании – видеть прогресс ученика: тот, кто не знал
+                        даже алфавита, начинает свободно разговаривать; тот, кто
+                        делал ошибки, избавляется от них.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 text-center">
+            <div class="card mr-2 d-inline-block shadow-lg">
+              <div class="card-img-top">
+                <img
+                  src="./img/teacher-4.jpg"
+                  class="img-fluid border-radius p-4"
+                  alt=""
+                />
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">James</h3>
+                <p class="card-text">
+                  Привет, меня зовут Джэймс. Я родом из Новой Зеландии. В
+                  преподавании мне нравятся моменты, когда мои студенты
+                  понимают, что они действительно улучшили свои коммуникативные
+                  навыки. Каждый язык, который мы учим, дает нам возможность
+                  создать новую идентичность, и это действительно вдохновляет:
+                  наблюдать, как люди заново открывают себя через изучение
+                  английского. Я и сам до сих пор стараюсь это сделать – но
+                  через русский язык!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container-fluid p-0">
+        <div class="row text-left">
+          <div class="col-md-5 col-sm-12">
+            <p class="text-muted"></p>
+            <a href="#" class="pt-4 politics">Политика конфиденциальности </a>
+          </div>
+          <div class="col-md-5 col-sm-12">
+            <h4 class="text-light">Новости</h4>
+            <p class="text-muted">
+              Подпишись на нашу новостную ленту, чтобы быть в курсе последних
+              событий
+            </p>
+            <form class="form-inline">
+              <div class="col pl-0">
+                <div class="input-group pr-5">
+                  <input
+                    type="text"
+                    class="form-control bg-dark text-white"
+                    id="inlineFormInputGroupUsername2"
+                    placeholder="Email"
+                  />
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">
+                      <i class="fas fa-arrow-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-2 col-sm-12">
+            <h4 class="text-light">Наши соц. сети</h4>
+            <div class="column text-light">
+              <a href="#" class="social-link">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-link">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <div class="links-block">
+              <a href="#" class="social-link">
+              <i class="fab fa-twitter"></i>
+            </a>
+              <a href="#" class="social-link">
+              <i class="fab fa-youtube"></i>
+              </a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
